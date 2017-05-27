@@ -28,6 +28,7 @@ $gender = "";
 $types = ["",""];
 $orientation = ["",""];
 $region = "";
+$pri = "";
 
 $off = 0;
 
@@ -75,6 +76,10 @@ if(array_key_exists('Ethnicity', $poke[$off])){
 
 if(array_key_exists('Region', $poke[$off])){
 	$region = $poke[$off]['Region'];
+}
+
+if(array_key_exists('Priority', $poke[$off])){
+	$pri = $poke[$off]['Priority'];
 }
 
 ?>
@@ -125,7 +130,10 @@ Ethnicity:
 <input type="text" id="eth1" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth1')" value="<?= $eth[0] ?>" />
 <input type="text" id="eth2" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth2')" value="<?= $eth[1] ?>" />
 <input type="text" id="eth3" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth3')" value="<?= $eth[2] ?>" />
+<!--
 Region: <input type="text" id="region" name="region" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('region')" value="<?= $region ?>" />
+-->
+Priority: <input type="text" id="pri" name="pri" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('pri')" value="<?= $pri ?>" />
 <p class="shug"><input type="submit" value="Edit">
 </form>
 </p>

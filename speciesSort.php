@@ -13,12 +13,18 @@ $el = count($data);
 
 for ($j = 0; $j < $el; $j++){
 	$data[$j]['LNum'] = array_search($data[$j]['Species'],$tdex);
+	if(!array_key_exists('Priority', $data[$j])){
+		$data[$j]['Priority'] = "110";
+	}
 }
 
 usort($data, 'mySort');
 
 for ($j = 0; $j < $el; $j++){
 	unset($data[$j]['LNum']);
+	if($data[$j]['Priority'] == "110"){
+		unset($data[$j]['Priority']);
+	}
 }
 
 $jen = json_encode($data);
@@ -54,11 +60,16 @@ $jen = json_encode($data);
 	
 function mySort($a, $b)
 {
-	$diff = (int)$a['LNum'] - (int)$b['LNum'];
-	if($diff == 0){ 	
-		return strcmp($a['Name'],$b['Name']); 
+	$diff = (int)$a['Priority'] - (int)$b['Priority'];
+	if($diff == 0){ 
+		$diff = (int)$a['LNum'] - (int)$b['LNum'];
+		if($diff == 0){ 	
+			return strcmp($a['Name'],$b['Name']); 
+		} else {
+			return $diff;
+		}  
 	} else {
 		return $diff;
-	}  
+	}
 }
 ?>

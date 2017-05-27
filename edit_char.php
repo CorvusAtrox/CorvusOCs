@@ -37,6 +37,9 @@
 	if($_POST['region']){
 		$data[$off]['Region'] = $_POST['region'];	
 	}
+	if($_POST['pri']){
+		$data[$off]['Priority'] = $_POST['pri'];	
+	}
 	$jen = json_encode($data);
 		//echo $jen;
 		
