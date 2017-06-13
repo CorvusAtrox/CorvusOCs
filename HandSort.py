@@ -32,11 +32,42 @@ def mergeSot(array, js):
             array[k] = right[j]
             j += 1
             k += 1
+            
+def bubbleSot(alist):
+    for passnum in range(len(alist)-1,0,-1):
+        for i in range(passnum):
+            val = raw_input("l: " + alist[i]['Name'] + " or r: " + alist[i+1]['Name'] + "? ")
+            if(val == "b"):
+                quit()
+            if(val == "r"):
+                temp = alist[i]
+                alist[i] = alist[i+1]
+                alist[i+1] = temp
+                
+def insertionSot(alist):
+   for index in range(1,len(alist)):
+
+     currentvalue = alist[index]
+     position = index
+
+     v= True
+     while position>0 and v:
+         val = raw_input("l: " + alist[position-1]['Name'] + " or r: " + currentvalue['Name'] + "? ")
+         if(val == "b"):
+            quit()
+         if(val == "r"):
+            alist[position]=alist[position-1]
+            position = position-1
+         if(val == "l"):
+            v = False
+         
+
+     alist[position]=currentvalue
 
 with open('ocdata.json') as data_file: 
     js = json.load(data_file)
 
-mergeSot(js, js)
+insertionSot(js)
 
 with open('ocdata.json', 'w') as outfile:
     json.dump(js, outfile)

@@ -20,10 +20,10 @@ $el = count($data);
 $nar = [];
 
 for ($j = 0; $j < $el; $j++){
-	if(array_key_exists('Gender', $data[$j])){
-		$nar[$j] = $data[$j]['Gender'];
+	if(array_key_exists('Priority', $data[$j])){
+		$nar[$j] = $data[$j]['Priority'];
 	} else {
-		$nar[$j] = " ";
+		$nar[$j] = "110";
 	}
 }
 

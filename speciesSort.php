@@ -18,7 +18,7 @@ for ($j = 0; $j < $el; $j++){
 	}
 }
 
-usort($data, 'mySort');
+usort($data, 'mySort2');
 
 for ($j = 0; $j < $el; $j++){
 	unset($data[$j]['LNum']);
@@ -68,6 +68,16 @@ function mySort($a, $b)
 		} else {
 			return $diff;
 		}  
+	} else {
+		return $diff;
+	}
+}
+
+function mySort2($a, $b)
+{
+	$diff = (int)$a['LNum'] - (int)$b['LNum'];
+	if($diff == 0){ 	
+		return strcmp($a['Name'],$b['Name']); 
 	} else {
 		return $diff;
 	}
