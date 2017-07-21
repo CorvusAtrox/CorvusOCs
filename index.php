@@ -108,7 +108,7 @@ if(array_key_exists('Priority', $poke[$off])){
 
 <form action="edit_char.php" method="post">
 <h4><span>
-Name: <input type="text" id="name" name="name" style="border:0px;background-color:#00FF00;" size="12" onchange="turnText('name')" value="<?= $name ?>" />
+Name: <input type="text" id="name" name="name" style="border:0px;background-color:#00FF00;" size="17" onchange="turnText('name')" value="<?= $name ?>" />
 <?php
 	if($snum != 0){
 		if(!file_exists('icons/'. $snum .'.png')){
@@ -132,8 +132,8 @@ Ethnicity:
 <input type="text" id="eth3" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth3')" value="<?= $eth[2] ?>" />
 <!--
 Region: <input type="text" id="region" name="region" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('region')" value="<?= $region ?>" />
--->
 Priority: <input type="text" id="pri" name="pri" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('pri')" value="<?= $pri ?>" />
+-->
 <p class="shug"><input type="submit" value="Edit">
 </form>
 </p>
@@ -153,13 +153,13 @@ Priority: <input type="text" id="pri" name="pri" style="border:0px;background-co
 
 <?php
 	if($snum != 0){
-		foreach(["Mousa", "Other"] as $sc){
+		foreach(["Dual", "Single"] as $sc){
 			if(file_exists('commissions/'.$sc.'/'. $name .'.png')){
 			echo "<br><img src='commissions/".$sc."/". $name .".png' border=0>";
 			}
 		}
 		if ($name == "Glöckchen"){
-			echo "<br><img src='commissions/Other/Glöckchen.png' border=0>";
+			echo "<br><img src='commissions/Single/Glöckchen.png' border=0>";
 		}
 	}
 ?>
