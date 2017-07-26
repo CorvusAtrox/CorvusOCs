@@ -93,7 +93,6 @@
 {"Name":"Haru","Gender":"Female","Priority":"5","Types":["Grass"],"Species":"Petilil","Ethnicity":["Black"]},
 {"Name":"Jones","Gender":"Male","Priority":"4","Types":["Water"],"Species":"Basculin","Ethnicity":["English","German"]},
 {"Name":"Latch","Gender":"Male","Species":"Krokorok","Types":["Ground","Dark"],"Ethnicity":["Mohawk"]},
-{"Name":"Shale","Gender":"Female","Priority":"6","Types":["Bug","Rock"],"Species":"Crustle","Ethnicity":["Armenian"]},
 {"Gender":"Female","Name":"Rosalinde","Types":["Normal","Grass"],"Species":"Deerling","Priority":"8"},
 {"Orientation":["Ace","Het"],"Gender":"Demifemale","Region":"Johto","Priority":"1","Ethnicity":["Japanese","Ashkenazi"],"Species":"Klang","Types":["Steel"],"Name":"Maggie"},
 {"Name":"Akravator","Gender":"Male","Species":"Fraxure","Types":["Dragon"]},
