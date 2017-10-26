@@ -3,7 +3,7 @@
 <title>OC Stuff</title>
 <style>
 body {
-    background-color: #00FF00;
+    background-color: #9EDA71;
 }
 
 .shug { display:block;text-align:center;width:50%;margin-right:200px;}
@@ -90,6 +90,7 @@ if(array_key_exists('Priority', $poke[$off])){
 </form>
 <p class="shug">
 <input type="button" onClick="start()" value = "|<"/>
+<input type="button" onClick="indDec(100)" value = "-100"/>
 <input type="button" onClick="indDec(50)" value = "-50"/>
 <input type="button" onClick="indDec(20)" value = "-20"/>
 <input type="button" onClick="indDec(10)" value = "-10"/>
@@ -103,12 +104,13 @@ if(array_key_exists('Priority', $poke[$off])){
 <input type="button" onClick="indInc(10)" value = "10"/>
 <input type="button" onClick="indInc(20)" value = "20"/>
 <input type="button" onClick="indInc(50)" value = "50"/>
+<input type="button" onClick="indInc(100)" value = "100"/>
 <input type="button" onClick="addEntry()" value = ">|"/>
 </p>
 
 <form action="edit_char.php" method="post">
 <h4><span>
-Name: <input type="text" id="name" name="name" style="border:0px;background-color:#00FF00;" size="17" onchange="turnText('name')" value="<?= $name ?>" />
+Name: <input type="text" id="name" name="name" style="border:0px;background-color:#9EDA71;" size="17" onchange="turnText('name')" value="<?= $name ?>" />
 <?php
 	if($snum != 0){
 		if(!file_exists('icons/'. $snum .'.png')){
@@ -117,22 +119,22 @@ Name: <input type="text" id="name" name="name" style="border:0px;background-colo
 		echo "<img src='icons/". $snum .".png' border=0>";
 	}
 ?>
-Mon Species: <input type="text" id="species" name="species" style="border:0px;background-color:#00FF00;" size="12" onchange="turnText('species')" value="<?= $species ?>" />
-Gender: <input type="text" id="gender" name="gender" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('gender')" value="<?= $gender ?>" />
+Mon Species: <input type="text" id="species" name="species" style="border:0px;background-color:#9EDA71;" size="12" onchange="turnText('species')" value="<?= $species ?>" />
+Gender: <input type="text" id="gender" name="gender" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('gender')" value="<?= $gender ?>" />
 Type: 
-<input type="text" id="type1" name="types[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('type1')" value="<?= $types[0] ?>" />
-<input type="text" id="type2" name="types[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('type2')" value="<?= $types[1] ?>" />
+<input type="text" id="type1" name="types[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('type1')" value="<?= $types[0] ?>" />
+<input type="text" id="type2" name="types[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('type2')" value="<?= $types[1] ?>" />
 <br>
 Orientation: 
-<input type="text" id="ori1" name="ori[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('ori1')" value="<?= $ori[0] ?>" />
-<input type="text" id="ori2" name="ori[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('ori2')" value="<?= $ori[1] ?>" />
+<input type="text" id="ori1" name="ori[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('ori1')" value="<?= $ori[0] ?>" />
+<input type="text" id="ori2" name="ori[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('ori2')" value="<?= $ori[1] ?>" />
 Ethnicity: 
-<input type="text" id="eth1" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth1')" value="<?= $eth[0] ?>" />
-<input type="text" id="eth2" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth2')" value="<?= $eth[1] ?>" />
-<input type="text" id="eth3" name="eth[]" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('eth3')" value="<?= $eth[2] ?>" />
+<input type="text" id="eth1" name="eth[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('eth1')" value="<?= $eth[0] ?>" />
+<input type="text" id="eth2" name="eth[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('eth2')" value="<?= $eth[1] ?>" />
+<input type="text" id="eth3" name="eth[]" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('eth3')" value="<?= $eth[2] ?>" />
 <!--
-Region: <input type="text" id="region" name="region" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('region')" value="<?= $region ?>" />
-Priority: <input type="text" id="pri" name="pri" style="border:0px;background-color:#00FF00;" size="10" onchange="turnText('pri')" value="<?= $pri ?>" />
+Region: <input type="text" id="region" name="region" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('region')" value="<?= $region ?>" />
+Priority: <input type="text" id="pri" name="pri" style="border:0px;background-color:#9EDA71;" size="10" onchange="turnText('pri')" value="<?= $pri ?>" />
 -->
 <p class="shug"><input type="submit" value="Edit">
 </form>
