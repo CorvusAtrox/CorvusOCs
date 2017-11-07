@@ -34,6 +34,7 @@
 {"Name":"Akim'bleer","Gender":"Male","Priority":"4","Types":["Fire"],"Species":"Quilava","Ethnicity":["Japanese"]},
 {"Name":"Zeina","Gender":"Female","Species":"Totodile","Types":["Water"],"Ethnicity":["Egyptian"]},
 {"Priority":"6","Gender":"Female","Name":"Likewise","Types":["Normal","Flying"],"Species":"Noctowl"},
+{"Name":"Jingyi","Gender":"Female","Species":"Natu","Types":["Psychic","Flying"],"Ethnicity":["Han Chinese"]},
 {"Orientation":["Gay"],"Gender":"Male","Region":"Holon","Priority":"3","Types":["Electric","Dark"],"Species":"Ampharos","Ethnicity":["Mestizx","Chinese"],"Name":"Chirin"},
 {"Gender":"Male","Name":"Horst","Types":["Grass","Flying"],"Species":"Jumpluff","Priority":"7"},
 {"Name":"Kernel","Gender":"Female","Region":"Johto","Priority":"4","Types":["Grass"],"Species":"Sunflora","Ethnicity":["Polish"]},
