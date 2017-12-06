@@ -111,6 +111,7 @@
 {"Name":"Trainwreck","Gender":"Agender","Region":"Kalos","Priority":"6","Types":["Grass"],"Species":"Quilladin","Ethnicity":["Dutch"]},
 {"Name":"Tsubasa","Gender":"Nonbinary","Priority":"4","Types":["Normal","Flying"],"Species":"Fletchling","Ethnicity":["Japanese","French","Jamaican"]},
 {"Orientation":["Bi"],"Gender":"Female","Region":"Kalos","Priority":"2","Types":["Fire","Flying"],"Species":"Talonflame","Ethnicity":["French","Jamaican"],"Name":"Lisa"},
+{"Name":"Fr\u00e9d\u00e9rique","Gender":"Male","Species":"Gogoat","Types":["Grass"],"Ethnicity":["French"],"Orientation":["Straight"]},
 {"Name":"Saitama","Gender":"Male","Species":"Pancham","Types":["Fighting"]},
 {"Gender":"Male","Name":"Anubis","Types":["Steel","Ghost"],"Species":"Honedge","Priority":"8"},
 {"Gender":"Female","Name":"Sugar Sugar","Types":["Fairy"],"Species":"Swirlix","Priority":"8"},
