@@ -41,6 +41,7 @@
 {"Name":"Hellbender","Gender":"Female","Region":"Kalos","Priority":"4","Types":["Water","Ground"],"Species":"Quagsire","Ethnicity":["Japanese","French"]},
 {"Orientation":["Ace","Panro"],"Gender":"Demimale","Region":"Kanto","Priority":"1","Ethnicity":["Japanese","French","German"],"Species":"Honchkrow","Types":["Dark","Flying"],"Name":"Sholto"},
 {"Name":"Dieter","Gender":"Neutrois","Species":"Girafarig","Types":["Normal","Psychic"]},
+{"Name":"Zeb","Gender":"Male","Species":"Girafarig","Types":["Normal","Psychic"]},
 {"Name":"Angelica","Gender":"Female","Region":"Kalos","Priority":"5","Types":["Fairy"],"Species":"Granbull","Ethnicity":["Basque"]},
 {"Gender":"Male","Ethnicity":["Turkish","Viet"],"Species":"Qwilfish","Types":["Water","Poison"],"Name":"Rapids","Priority":"8"},
 {"Name":"Slliuq","Gender":"Female","Region":"Johto","Priority":"3","Types":["Water","Poison"],"Species":"Qwilfish","Ethnicity":["Viet"]},
