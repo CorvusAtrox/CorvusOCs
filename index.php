@@ -163,6 +163,9 @@ Priority: <input type="text" id="pri" name="pri" style="border:0px;background-co
 		if ($name == "Glöckchen"){
 			echo "<br><img src='commissions/Dual/Glöckchen.png' border=0>";
 		}
+		else if ($name == "Frédérique"){
+			echo "<br><img src='commissions/Dual/Frédérique.png' border=0>";
+		}
 	}
 ?>
 
