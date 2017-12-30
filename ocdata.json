@@ -75,6 +75,7 @@
 {"Name":"Bobbery","Gender":"Male","Priority":"5","Types":["Ice","Water"],"Species":"Walrein","Ethnicity":["Black"]},
 {"Name":"Alpha","Gender":"Male","Region":"Sinnoh","Priority":"5","Species":"Salamence","Types":["Dragon","Flying"]},
 {"Gender":"Agender","Name":"Breq","Types":["Steel","Psychic"],"Species":"Metang","Priority":"8"},
+{"Name":"Gen\u00e9vrier","Gender":"Female","Species":"Grotle","Types":["Grass"]},
 {"Priority":"5","Gender":"Female","Name":"Tide","Types":["Water","Steel"],"Species":"Empoleon"},
 {"Gender":"Female","Name":"Kokone","Types":["Bug"],"Species":"Kricketune","Priority":"7"},
 {"Name":"Foudre","Gender":"Female","Priority":"4","Types":["Electric"],"Species":"Luxray","Ethnicity":["Russian","Mongolian"]},
