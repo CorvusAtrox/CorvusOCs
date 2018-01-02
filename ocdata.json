@@ -12,6 +12,7 @@
 {"Orientation":["Ace"],"Gender":"Female","Region":"Kanto","Priority":"3","Types":["Bug","Poison"],"Species":"Venomoth","Ethnicity":["Pakistani"],"Name":"Venomous"},
 {"Gender":"Male","Name":"Old Cave","Types":["Ground"],"Species":"Dugtrio","Priority":"7"},
 {"Orientation":["Ace","Biro"],"Gender":"Male","Region":"Johto","Priority":"2","Ethnicity":["Egyptian"],"Species":"Primeape","Types":["Fighting"],"Name":"Soujin"},
+{"Name":"Tuff","Gender":"Female","Species":"Growlithe","Types":["Fire"],"Orientation":["Lesbian"]},
 {"Name":"Kamdida","Gender":"Female","Priority":"5","Types":["Psychic"],"Species":"Kadabra","Ethnicity":["Arab"]},
 {"Name":"E-Bird","Gender":"Male","Priority":"5","Types":["Fighting"],"Species":"Machamp","Ethnicity":["Norwegian"]},
 {"Gender":"Female","Name":"Pitch","Types":["Grass","Poison"],"Species":"Weepinbell","Priority":"6"},
