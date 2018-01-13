@@ -2,7 +2,7 @@
 <title>Gender List</title>
 <style>
 body {
-    background-color: #00FF00;
+    background-color: #9EDA71;
 }
 
 .shug { display:block;text-align:center;width:50%;margin-right:200px;}
@@ -20,8 +20,8 @@ $el = count($data);
 $nar = [];
 
 for ($j = 0; $j < $el; $j++){
-	if(array_key_exists('Priority', $data[$j])){
-		$nar[$j] = $data[$j]['Priority'];
+	if(array_key_exists('Gender', $data[$j])){
+		$nar[$j] = $data[$j]['Gender'];
 	} else {
 		$nar[$j] = "110";
 	}
