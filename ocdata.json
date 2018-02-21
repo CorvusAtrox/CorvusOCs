@@ -51,7 +51,7 @@
 {"Gender":"Male","Ethnicity":["Turkish","Viet"],"Species":"Qwilfish","Types":["Water","Poison"],"Name":"Rapids","Priority":"8"},
 {"Name":"Slliuq","Gender":"Female","Region":"Johto","Priority":"3","Types":["Water","Poison"],"Species":"Qwilfish","Ethnicity":["Viet"]},
 {"Priority":"4","Gender":"Male","Name":"Slightly","Types":["Dark","Ice"],"Species":"Weavile"},
-{"Name":"Claw","Species":"Teddiursa","Types":["Normal"],"Gender":"Male"},
+{"Name":"Himanta","Species":"Teddiursa","Types":["Normal"],"Gender":"Male"},
 {"Name":"Eisschwein","Gender":"Male","Region":"Unova","Priority":"5","Types":["Ice","Ground"],"Species":"Piloswine","Ethnicity":["German","Norwegian"]},
 {"Gender":"Female","Name":"Junc","Types":["Ice","Flying"],"Species":"Delibird","Priority":"7"},
 {"Name":"Dawg","Gender":"Male","Priority":"6","Types":["Dark","Fire"],"Species":"Houndoom","Ethnicity":["Scottish"]},
