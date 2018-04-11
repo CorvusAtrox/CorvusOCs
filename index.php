@@ -160,7 +160,10 @@ Priority: <input type="text" id="pri" name="pri" style="border:0px;background-co
 			echo "<br><img src='commissions/".$sc."/". $name .".png' border=0>";
 			}
 		}
-		if ($name == "Glöckchen"){
+		if ($name == "Akim'bleer"){
+			echo "<br><img src='commissions/Dual/Akimbleer.png' border=0>";
+		}
+		else if ($name == "Glöckchen"){
 			echo "<br><img src='commissions/Dual/Glöckchen.png' border=0>";
 		}
 		else if ($name == "Frédérique"){

@@ -1,0 +1,22 @@
+[
+{"Name":"Clean Bandit","Gender":"Female","Ethnicity":["Hawaiian"],"Species":"Rattata","Types":["Normal","Dark"]},
+{"Gender":"Male","Name":"Kylo","Types":["Psychic"],"Species":"Abra"},
+{"Priority":"7","Gender":"Female","Name":"Pyrrha","Types":["Fire"],"Species":"Ponyta"},
+{"Gender":"Female","Species":"Totodile","Name":"Zeina","Ethnicity":["Egyptian"],"Types":["Water"]},
+{"Gender":"Female","Species":"Natu","Name":"Jingyi","Ethnicity":["Han Chinese"],"Types":["Psychic","Flying"]},
+{"Gender":"Agender","Types":["Dark","Flying"],"Name":"Hannes","Ethnicity":["German"],"Species":"Murkrow"},
+{"Gender":"Male","Name":"Airhead","Types":["Ghost"],"Species":"Misdreavus"},
+{"Gender":"Nonbinary","Name":"Sosh","Types":["Bug"],"Species":"Pineco"},
+{"Name":"Rapids","Gender":"Male","Priority":"8","Types":["Water","Poison"],"Species":"Qwilfish","Ethnicity":["Turkish","Viet"]},
+{"Gender":"Male","Name":"Thicket","Types":["Normal"],"Species":"Stantler"},
+{"Name":"Rockabye","Gender":"Male","Region":"Sinnoh","Priority":"8","Species":"Larvitar","Types":["Rock","Ground"]},
+{"Name":"Chelsea","Gender":"Female","Region":"Sinnoh","Priority":"8","Species":"Dustox","Types":["Bug","Poison"]},
+{"Name":"Jolly","Gender":"Female","Priority":"7","Types":["Water","Flying"],"Species":"Wingull","Ethnicity":["Japanese"]},
+{"Priority":"8","Gender":"Male","Name":"Malachi","Types":["Psychic","Fairy"],"Species":"Ralts"},
+{"Name":"Maki","Gender":"Female","Priority":"8","Types":["Water","Ground"],"Species":"Barboach","Ethnicity":["Japanese"]},
+{"Priority":"7","Gender":"Female","Name":"Kokone","Types":["Bug"],"Species":"Kricketune"},
+{"Gender":"Male","Name":"Hassaku","Types":["Dark","Ghost"],"Species":"Spiritomb"},
+{"Priority":"8","Gender":"Female","Name":"Eas","Types":["Electric"],"Species":"Zebstrika"},
+{"Priority":"8","Gender":"Male","Name":"Anubis","Types":["Steel","Ghost"],"Species":"Honedge"},
+{"Priority":"8","Gender":"Female","Name":"Festival","Types":["Flying","Dragon"],"Species":"Noibat"}
+]

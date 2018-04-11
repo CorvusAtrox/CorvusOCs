@@ -2,7 +2,7 @@
 <title>Hand Sort</title>
 <style>
 body {
-    background-color: #00FF00;
+    background-color: #9EDA71;
 }
 
 .shug { display:block;text-align:center;width:30%;margin-right:200px;}
