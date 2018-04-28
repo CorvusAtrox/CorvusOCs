@@ -85,6 +85,7 @@
 {"Name":"Finn","Gender":"Male","Priority":"2","Types":["Dragon","Ground"],"Species":"Garchomp","Ethnicity":["Scottish"]},
 {"Name":"Runt","Gender":"Male","Priority":"7","Types":["Poison","Fighting"],"Species":"Toxicroak","Ethnicity":["Welsh"]},
 {"Gender":"Female","Name":"Wakaba","Types":["Grass"],"Species":"Carnivine"},
+{"Name":"Ingo","Gender":"Male","Species":"Lumineon","Types":["Water"]},
 {"Name":"Gl\u00f6ckchen","Gender":"Female","Region":"Sinnoh","Priority":"4","Types":["Grass","Ice"],"Species":"Abomasnow","Ethnicity":["German","Nepalese"]},
 {"Orientation":["Skolio"],"Gender":"Male","Region":"Unova","Priority":"4","Types":["Fire","Fighting"],"Species":"Emboar","Ethnicity":["English"],"Name":"Squealer"},
 {"Name":"Scouter","Gender":"Male","Priority":"4","Types":["Normal"],"Species":"Watchog","Ethnicity":["Iriquois"]},

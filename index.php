@@ -22,7 +22,7 @@ $poke = json_decode($jin, true);
 $kanto = file("kanto.txt");
 $tkan = array_map('trim',$kanto);
 
-$name = "";
+$namae = "";
 $species = "";
 $gender = "";
 $types = ["",""];
@@ -40,7 +40,7 @@ if(isset($_COOKIE["off"])){
 	echo $off;
 
 if(array_key_exists('Name', $poke[$off])){
-	$name = $poke[$off]['Name'];
+	$namae = $poke[$off]['Name'];
 }
 
 if(array_key_exists('Gender', $poke[$off])){
@@ -110,7 +110,7 @@ if(array_key_exists('Priority', $poke[$off])){
 
 <form action="edit_char.php" method="post">
 <h4><span>
-Name: <input type="text" id="name" name="name" style="border:0px;background-color:#9EDA71;" size="17" onchange="turnText('name')" value="<?= $name ?>" />
+Name: <input type="text" id="charname" name="charname" style="border:0px;background-color:#9EDA71;" size="17" onchange="turnText('charname')" value="<?= $namae ?>" />
 <?php
 	if($snum != 0){
 		if(!file_exists('icons/'. $snum .'.png')){
