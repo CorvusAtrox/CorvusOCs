@@ -156,18 +156,12 @@ Priority: <input type="text" id="pri" name="pri" style="border:0px;background-co
 <?php
 	if($snum != 0){
 		foreach(["Dual", "Single"] as $sc){
-			if(file_exists('commissions/'.$sc.'/'. $name .'.png')){
-			echo "<br><img src='commissions/".$sc."/". $name .".png' border=0>";
+			if(file_exists('commissions/'.$sc.'/'. $namae .'.png')){
+				echo "<br><img src='commissions/".$sc."/". $namae .".png' border=0>";
 			}
 		}
-		if ($name == "Akim'bleer"){
+		if ($namae == "Akim'bleer"){
 			echo "<br><img src='commissions/Dual/Akimbleer.png' border=0>";
-		}
-		else if ($name == "Glöckchen"){
-			echo "<br><img src='commissions/Dual/Glöckchen.png' border=0>";
-		}
-		else if ($name == "Frédérique"){
-			echo "<br><img src='commissions/Dual/Frédérique.png' border=0>";
 		}
 	}
 ?>

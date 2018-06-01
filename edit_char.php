@@ -7,8 +7,8 @@
 	$data = json_decode($jin, true);
 
 	$_POST = array_filter($_POST);
-	if($_POST['name']){
-		$data[$off]['Name'] = $_POST['name'];	
+	if($_POST['charname']){
+		$data[$off]['Name'] = $_POST['charname'];	
 	}
 	if($_POST['gender']){
 		$data[$off]['Gender'] = $_POST['gender'];	

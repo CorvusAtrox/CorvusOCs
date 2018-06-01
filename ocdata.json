@@ -1,11 +1,11 @@
 [
 {"Name":"M. Bush","Gender":"Female","Region":"Kalos","Priority":"5","Types":["Grass","Poison"],"Species":"Venusaur","Ethnicity":["Romani"]},
-{"Name":"Hazard","Gender":"Male","Types":["Fire"],"Species":"Charizard","Ethnicity":["Chinese"],"Orientation":["Aro"]},
+{"Name":"Hazard","Gender":"Male","Types":["Fire"],"Species":"Charizard","Ethnicity":["Chinese"],"Orientation":["Bi"]},
 {"Gender":"Male","Types":["Bug"],"Name":"Cris","Ethnicity":["Portugese"],"Species":"Metapod"},
 {"Name":"Molly","Gender":"Female","Region":"Johto","Priority":"7","Species":"Beedrill","Types":["Bug","Poison"]},
 {"Name":"Slashkreyd","Gender":"Male","Types":["Ground"],"Species":"Sandslash","Ethnicity":["Ashkenazi"],"Orientation":["Ace"]},
 {"Name":"Ruby","Gender":"Female","Priority":"7","Ethnicity":["Mestizx"],"Species":"Nidorina","Types":["Poison"]},
-{"Gender":"Male","Name":"Yarne","Types":["Poison"],"Species":"Nidoran M"},
+{"Gender":"Male","Name":"Yarne","Types":["Poison"],"Species":"Nidorino"},
 {"Gender":"Male","Name":"Gumbomb","Species":"Jigglypuff","Ethnicity":["Slovenian"],"Types":["Normal","Fairy"]},
 {"Gender":"Male","Name":"Orlok","Types":["Poison","Flying"],"Species":"Golbat"},
 {"Gender":"Male","Types":["Grass","Poison"],"Name":"Mandrake","Ethnicity":["Spanish"],"Species":"Vileplume"},
@@ -133,4 +133,5 @@
 {"Gender":"Female","Name":"Thalia","Types":["Normal"],"Species":"Komala"},
 {"Gender":"Female","Name":"Sheila","Types":["Fire","Dragon"],"Species":"Turtonator"},
 {"Name":"Gnash","Gender":"Male","Priority":"7","Types":["Water","Psychic"],"Species":"Bruxish","Ethnicity":["Hawaiian","Portugese"]},
-{"Priority":"7","Gender":"Nonbinary","Name":"Oscillot","Types":["Electric"],"Species":"Xurkitree"}]
+{"Priority":"7","Gender":"Nonbinary","Name":"Oscillot","Types":["Electric"],"Species":"Xurkitree"},
+{"Gender":"Nonbinary","Species":"Guzzlord","Types":["Dark","Dragon"],"Name":"Yunwa"}]
