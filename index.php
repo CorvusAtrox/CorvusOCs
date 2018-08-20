@@ -140,6 +140,9 @@ Priority: <input type="text" id="pri" name="pri" style="border:0px;background-co
 </form>
 </p>
 
+<form action="alphaSort.php" method="post">
+<p class="shug"><input type="submit" value="A-Z Sort"></p>
+</form>
 <form action="speciesSort.php" method="post">
 <p class="shug"><input type="submit" value="Species Sort"></p>
 </form>
