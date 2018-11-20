@@ -47,6 +47,7 @@
 {"Name":"Lira","Gender":"Female","Species":"Steenee","Types":["Grass"],"Orientation":["Bi"]},
 {"Orientation":["Bi"],"Gender":"Female","Region":"Kalos","Priority":"2","Types":["Fire","Flying"],"Species":"Talonflame","Ethnicity":["French","Jamaican"],"Name":"Lisa"},
 {"Name":"Lupa","Gender":"Female","Species":"Lycanroc","Types":["Rock"],"Ethnicity":["Basque"]},
+{"Name":"Lyle","Gender":"Male","Species":"Drowzee","Types":["Psychic"],"Orientation":["Panromantic","Ace"],"Ethnicity":["Japanese","German","French"]},
 {"Name":"M. Bush","Gender":"Female","Region":"Kalos","Priority":"5","Types":["Grass","Poison"],"Species":"Venusaur","Ethnicity":["Hungarian"]},
 {"Orientation":["Ace","Het"],"Gender":"Demifemale","Region":"Johto","Priority":"1","Ethnicity":["Japanese","Ashkenazi"],"Species":"Klang","Types":["Steel"],"Name":"Maggie"},
 {"Gender":"Male","Types":["Grass","Poison"],"Name":"Mandrake","Ethnicity":["Spanish"],"Species":"Vileplume"},
@@ -96,5 +97,4 @@
 {"Gender":"Nonbinary","Species":"Guzzlord","Types":["Dark","Dragon"],"Name":"Yunwa"},
 {"Name":"Yuuya","Gender":"Male","Priority":"6","Types":["Psychic","Flying"],"Species":"Swoobat","Ethnicity":["Viet"],"Orientation":["Pan"]},
 {"Gender":"Male","Name":"Zeb","Types":["Ghost"],"Species":"Cofagrigus"},
-{"Gender":"Female","Species":"Sandile","Name":"Zeina","Ethnicity":["Egyptian"],"Types":["Water"]},
-{"Name":"Lyle","Gender":"Male","Species":"Drowzee","Types":["Psychic"],"Orientation":["Panromantic","Ace"],"Ethnicity":["Japanese","German","French"]}]
+{"Gender":"Female","Species":"Sandile","Name":"Zeina","Ethnicity":["Egyptian"],"Types":["Water"]}]
